@@ -1,0 +1,21 @@
+.block {
+	margin: 300px auto;
+	width: 250px;
+	height: 250px;
+	background-color: aqua;
+	animation: blockchange 6s ease-in infinite;
+}
+
+@keyframes blockchange {
+	from {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(2);
+		background-color: bisque;
+	}
+	to {
+		transform: scale(1);
+		background-color: aqua;
+	}
+}
